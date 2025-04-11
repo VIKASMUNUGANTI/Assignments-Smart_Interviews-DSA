@@ -1,6 +1,6 @@
 // Brute Force (tc-O(n^2))
 
-class Solution {
+class Solution1 {
     public int missingNumber(int[] nums) {
         int n = nums.length;
 
@@ -26,7 +26,7 @@ class Solution {
 
 //Optimized (tc-O(n))
 
-class Solution {
+class Solution2 {
     public int missingNumber(int[] nums) {
         int n=nums.length;
         int sum=0;
