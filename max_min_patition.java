@@ -1,5 +1,15 @@
 /*
-    Max Min Partition bookmark_borderGiven an array D of positive integers, your goal is to divide D into two separate arrays, E and F, under the following conditions:Each element in array D must belong to either array E or array FBoth arrays E and F are non-emptyThe objective is to minimize the partition's value, calculated as the absolute difference between the maximum value of array E (denoted as max(E)) and the minimum value of array F (denoted as min(F))Print the resulting integer that represents the value of this partition.
+    Max Min Partition 
+    Given an array D of positive integers, 
+    your goal is to divide D into two separate arrays, E and F,
+    under the following conditions:
+    Each element in array D must belong to either array E or array F
+    Both arrays E and F are non-empty
+    The objective is to minimize the partition's value, calculated as the 
+    absolute difference between the maximum value of array E (denoted as max(E)) 
+    and the minimum value of array F (denoted as min(F))
+    
+    Print the resulting integer that represents the value of this partition.
 
 Input Format
 The first line of input contains N. The second line of input contains an array of size N.
