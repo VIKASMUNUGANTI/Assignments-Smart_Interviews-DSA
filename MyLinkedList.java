@@ -94,8 +94,8 @@ class MyLinkedList {
     }
     
     public void addAtIndex(int index, int val) {
-        if (index > size) return;
-        if(index<=0) addAtHead(val);
+        if (index > size || index < 0) return;
+        if(index==0) addAtHead(val);
         else if(index==size) addAtTail(val);
         else{
             Node curr=head;
